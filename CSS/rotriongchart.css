@@ -1,0 +1,47 @@
+.nav-rotationchart {
+    height: 460px;
+    width: 1250px;
+    margin-top: 22px;    
+    overflow: hidden;   
+    position: relative;
+  }
+  #wrong img{     
+    width: 1250px;
+    height: 460px;
+    
+  }
+
+  .left-navigation{      
+    height: 460px;
+    width: 260px;
+    background-color: rgba(0,0,0,0.3);   
+    position: absolute;
+  }
+ 
+  .left-navigation ul {
+    padding-top: 30px;
+    padding-top: 30px;
+    
+  }
+  .left-navigation ul li {
+    height: 40px;
+    color: white;
+    padding-left: 30px;
+    line-height: 40px;
+    font-size: 15px;
+  }
+
+  .left-navigation ul li div {
+    width: 990px;
+    height: 460px;
+    background-color: rgba(25,25,25,.2);
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    display: none;
+  }
+
+  .left-navigation ul li:hover {
+    background-color: orange;
+  }
+ 

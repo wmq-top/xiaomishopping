@@ -1,0 +1,40 @@
+.first-advertisement{
+    height: 120px;
+    margin-top: 22px;      
+  }
+.first-advertisement img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+.second-advertisement{
+    height: 120px;
+    margin-top: 35px;    
+  }
+.second-advertisement img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.third-advertisement{
+    height: 120px;
+    margin-top: 35px;    
+  }
+.third-advertisement img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fourth-advertisement{
+    height: 120px;
+    margin-top: 35px;    
+  }
+.fourth-advertisement img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+

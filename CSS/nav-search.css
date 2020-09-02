@@ -1,0 +1,63 @@
+.nav-search{
+    height: 55px;
+    margin-top: 22px;
+  
+    overflow: hidden;
+    }
+    /*  */
+  #icon-mi{             /* 此处需要鼠标移入修改src,更换图片回头再说·· */
+    float: left;
+    height: 55px;
+  }
+  #image-gif-first{
+    float: left;
+    height: 55px;
+    margin-left: 20px;
+  }
+  .search-bar{
+    float: left;
+    padding-left: 3px;      
+    height: 55px;
+    line-height: 55px;
+  }
+  .search-bar a{
+    color: black;
+    font-size: 16px;           /* 此处有从服务器请求来的数据展示后面再改吧 */
+    padding-left: 8px;
+  }  
+  .search-bar a:hover{
+    color: orange;
+  }
+  
+  .found-icon{
+    float: right;
+    width: 55px;
+    height: 51px;
+    background-color: yellow;
+    border: 1px solid rgb(224, 224, 224);    
+  }
+
+  .found-icon:hover{
+    border: 1px solid black;             /* 添加点击事件，js回头再说吧 */
+  }
+  .found-icon img{
+    width: 55px;
+    height: 51px;
+  }
+
+  .nav-search input{      
+    height: 51px;
+    float: right;
+    font-size: 18px;
+    text-indent: 14px;
+    width: 188px;
+    border: 1px solid rgb(224, 224, 224);
+    border-right: 0;
+  }
+  .nav-search input:focus{
+    outline: none;
+    border: 1px solid orange;       /* 此次需要用js事项两者的绑定 */
+  }
+  .nav-search input:hover{
+    border: 1px solid black;
+  }

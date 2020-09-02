@@ -1,0 +1,24 @@
+.disprate-commponet{
+    height: 80px;
+    margin-top: 10px;      
+  }   
+  
+  .left-dis-title{
+    float: left;
+    font-size: 22px;      
+    width: 60px;
+    line-height: 80px;     
+    font-weight: 300; 
+  }
+  .right-dis-title{
+    float: right;
+    height: 60px;
+    line-height: 80px;
+    font-size: 18px;
+  }
+
+  .disprate-commponet-second span:hover{
+    border-bottom: 2px solid rgb(254, 103, 0);
+    color: rgb(254, 103, 0);
+  }
+

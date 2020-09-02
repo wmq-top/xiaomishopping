@@ -1,0 +1,42 @@
+.nav-hot-product{
+    height: 169px;
+    margin-top: 15px;
+  }
+  .hot-small-icon{
+    width: 260px;
+    height: 100%;
+    background-color: rgb(95, 87, 80);
+    float: left;
+  }
+
+
+  .hot-small-icon ul li {
+    width: 86px;
+    float: left;
+    padding-top: 24px;
+    text-align: center;
+    font-size: 14px;      
+  }
+  
+  .hot-small-icon ul li a{
+    color: rgb(204, 202, 199);
+  }
+  .hot-small-icon ul li a:hover{
+    color: white;
+  }
+  .hot-small-icon ul li a img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+
+  .hot-small-pic ul li{
+    float: left;
+    width: 310px;
+    height: 169px;    
+    margin-left: 20px;
+  }
+  .hot-small-pic ul li a img{
+    width: 100%;
+    height: 100%;
+  }

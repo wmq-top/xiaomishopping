@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- 语言种类 -->
+
+<head>
+  <meta charset="UTF-8"> <!-- 字符集合万国码 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>小米官网首页</title>
+  <link rel="stylesheet" href="CSS/nav-head.css">
+  <link rel="stylesheet" href="CSS/nav-search.css">
+  <link rel="stylesheet" href="CSS/rotriongchart.css">
+  <link rel="stylesheet" href="CSS/nav-hot-profuct.css">
+  <link rel="stylesheet" href="CSS/fast-shopping.css">
+  <link rel="stylesheet" href="CSS/adertisment.css">
+  <link rel="stylesheet" href="CSS/disprate-commponet.css">
+  <link rel="stylesheet" href="CSS/detial-cell.css">
+  <link rel="stylesheet" href="CSS/family-electricity.css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <style>
+    @font-face {
+      font-family: 'icomoon';
+      src:  url('fonts/icomoon.eot?czy141');
+      src:  url('fonts/icomoon.eot?czy141#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?czy141') format('truetype'),
+      url('fonts/icomoon.woff?czy141') format('woff'),
+      url('fonts/icomoon.svg?czy141#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+    }
+    #father-of-all{
+      width: 1250px;
+      margin: 0 auto;
+      background-color: rgb(245, 245, 245);
+    }        
+    #amazing{
+      font-family: 'icomoon';
+      font-size: 300px;
+      color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav-head">
+    <!-- 做背景使用 -->
+    <div class="nav-father">
+      <!-- 限制浮动区域方便和主页对齐 -->
+      <div class="nav-head-list">
+        <a href="">小米商城</a>
+        <a href="">MIUI</a>
+        <a href="">loT</a>
+        <a href="">云服务</a>
+        <a href="">金融</a>
+        <a href="">有品</a>
+        <a href="">小爱开放平台</a>
+        <a href="">企业团购</a>
+        <a href="">资质证照</a>
+        <a href="">协议规则</a>
+        <a href="">下载app</a>
+        <a href="" class="nav-left-last">Select Loaction</a>
+      </div>
+      <div class="nav-head-login">
+        <a href="">登录</a>
+        <a href="" class="nav-left-last">注册</a>
+      </div>
+      <div class="nav-head-shoppingcar"><span>购物车({{}})<span></div>
+    </div>
+    <!-- <div id="shopping-active"> </div>    -->
+  </div>
+
+  <div id="father-of-all">
+
+    <div class="nav-search">
+      <a href=""><img data-lazy-src="icon/mi-icon.png" alt="小米官网" id="icon-mi" /></a>
+      <a href=""><img data-lazy-src="image/father-nav-img.gif" alt="" id="image-gif-first" /></a>
+      <div class="search-bar">
+        <a href="">小米手机</a>
+        <a href="">Redmi红米</a>
+        <a href="">电视</a>
+        <a href="">笔记本</a>
+        <a href="">家电</a>
+        <a href="">路由器</a>
+        <a href="">智能硬件</a>
+        <a href="">服务</a>
+        <a href="">社区</a>
+      </div>
+      <div class="found-icon"><img data-lazy-src="icon/search-find.png" alt="" /></div>
+      <input type="text" />
+    </div>
+
+
+    <!-- still have bug -->
+    <div class="nav-rotationchart">
+      <div class="left-navigation">
+        <ul id="lis">
+          <li>手机 电话卡
+            <div class="hidden"></div>
+          </li>
+          <li>电视 盒子
+            <div class="hidden"></div>
+          </li>
+          <li>笔记本 显示器
+            <div class="hidden"></div>
+          </li>
+          <li>家电 插线板
+            <div class="hidden"></div>
+          </li>
+          <li>出行 穿戴
+            <div class="hidden"></div>
+          </li>
+          <li>智能 路由器
+            <div class="hidden"></div>
+          </li>
+          <li>电源 配件
+            <div class="hidden"></div>
+          </li>
+          <li>将康 儿童
+            <div class="hidden"></div>
+          </li>
+          <li>耳机 音箱
+            <div class="hidden"></div>
+          </li>
+          <li>生活 箱包
+            <div class="hidden"></div>
+          </li>
+        </ul>
+      </div>
+      <div id="wrong">
+        <a href=""><img data-lazy-src="image/轮播图2.jpg" alt=""></a>
+      </div>
+
+    </div>
+
+    <div class="nav-hot-product">
+      <div class="hot-small-icon">
+        <ul>
+          <li><a href=""><img data-lazy-src="logo/小米秒杀.png" alt=""><br /><span>小米秒杀</span></a></li>
+          <li><a href=""><img data-lazy-src="logo/企业团购.png" alt=""><br /><span>企业团购</span></a></li>
+          <li><a href=""><img data-lazy-src="logo/米粉卡.png" alt=""><br /><span>米粉卡</span></a></li>
+          <li><a href=""><img data-lazy-src="logo/话费充值.png" alt=""><br /><span>话费充值</span></a></li>
+          <li><a href=""><img data-lazy-src="logo/以旧换新.png" alt=""><br /><span>以旧换新</span></a></li>
+          <li><a href=""><img data-lazy-src="logo/F码通道.png" alt=""><br /><span>F码通道</span></a></li>
+        </ul>
+      </div>
+      <div class="hot-small-pic">
+        <ul>
+          <li><a href=""><img data-lazy-src="image/RedmiK30.jpg" alt=""></a></li>
+          <li><a href=""><img data-lazy-src="image/redmiK30i.jpg" alt=""></a></li>
+          <li><a href=""><img data-lazy-src="image/小米手环4.jpg" alt=""></a></li>
+        </ul>
+      </div>
+
+    </div> <!-- perfect -->
+
+    <div class="fast-shopping">
+      <div class="title">
+        <h2>小米闪购</h2>
+        <h4>></h4>
+        <h4>
+          <</h4> </div> <div class="timeclear">
+            <h4>14:00 &nbsp 场</h4>
+            <img data-lazy-src="icon/fast-shopping-icon.png" alt="">
+            <h5>已经开始</h5>
+            <div class="count-down">
+              <span class="hour"></span>:
+              <span class="minute"></span>:
+              <span class="seconds"></span>
+            </div>
+      </div>
+      <div class="data-from-web-back">
+        <ul>
+          <li>
+            <a href="">
+              <img data-lazy-src="image/back-data-img(1).png" alt="">
+              <h4>小米路由器4A纯白色</h4>
+              <h5>更高性价比的双频路由器</h5>
+              <div>
+                <span>9.9元</span><span>119元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="image/back-data-img(2).png" alt="">
+              <h4>巨省电|小米新1级空调X 1.5匹</h4>
+              <h5>变频节能巨省电，自清洁</h5>
+              <div>
+                <span>2099元</span><span>2399元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="image/back-data-img(3).png" alt="">
+              <h4>Redmi Note 8 Pro 6GB+64G...</h4>
+              <h5>6400万全场景四摄</h5>
+              <div>
+                <span>1099元</span><span>1399元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="image/back-data-img(4).png" alt="">
+              <h4>日常元素抽纸 青春版 24包/箱</h4>
+              <h5>精选原生竹浆，健康环保</h5>
+              <div>
+                <span>27.9元</span><span>32.9元</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- data from sql -->
+
+    <script>
+      var hour = document.querySelector(".hour");
+      var minute = document.querySelector(".minute");
+      var second = document.querySelector(".seconds");
+      var inputTime = +new Date('2020-9-17 17:35:00');
+      countDown();
+      setInterval(countDown, 1000);
+      function countDown() {
+        var nowTime = +new Date();
+        var times = (inputTime - nowTime) / 1000;
+        /* var d = parseInt(times / 60 / 24);
+        d = d < 10 ? "0" + d : d; */
+        var h = parseInt(times / 60 / 60 % 24);
+        h = h < 10 ? '0' + h : h;
+        hour.innerHTML = h; //小时给盒子
+        var m = parseInt(times / 60 % 60);
+        m = m < 10 ? '0' + m : m;
+        minute.innerHTML = m;
+        var s = parseInt(times % 60);
+        s = s < 10 ? '0' + s : s;
+        second.innerHTML = s;
+        /* return d + "天" + h + "时" + m + "分" + s + "秒"; */
+      }
+
+    </script>
+
+    <div class="first-advertisement">
+      <img data-lazy-src="image/广告栏1.webp" alt="">
+    </div>
+
+    <div class="disprate-commponet">
+      <div class="left-dis-title">手机</div>
+      <div class="right-dis-title">查看全部</div>
+    </div> <!-- 分离标题栏 -->
+
+    <div class="telephone-cell">
+      <div class="cell-left">
+        <a href=""><img data-lazy-src="detial-image/cellphone/Alpha.webp" alt=""></a>
+      </div>
+      <div class="cell-right">
+        <div class="cell-right-top">
+          <ul>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/腾讯黑鲨3S.webp" alt="">
+                <h4>腾讯黑鲨3S</h4>
+                <h5>骁龙865处理器，120Hz刷新率</h5>
+                <div><span>3999元起</span><span></span></div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/Redmi 9A.webp" alt="">
+                <h4>Redmi 9A</h4>
+                <h5>5000mAh循环大电量，6.53"超大护...</h5>
+                <div><span>499元起</span><span></span> </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/小米10青春版5g.webp" alt="">
+                <h4>小米10 青春版 5G</h4>
+                <h5>50倍潜望式变焦/轻薄5G手机</h5>
+                <div><span>1899元起</span><span>2099元</span> </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/小米10.webp" alt="">
+                <h4>小米10</h4>
+                <h5>骁龙865/1亿像素相机</h5>
+                <div><span>3799元起</span><span>3999元</span> </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="cell-right-bottom">
+          <ul>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/Redmi k30 Pro.webp" alt="">
+                <h4>Redmi K30 Pro</h4>
+                <h5>双模5G,骁龙865，弹出全面屏</h5>
+                <div><span>2599元</span><span></span> </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/Redmi k30 Pro 变焦版webp.webp" alt="">
+                <h4>Redmi K30 Pro 变焦版</h4>
+                <h5>双模5G，骁龙865，弹出全面屏</h5>
+                <div><span>3799元</span><span></span> </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/小米10 Pro.webp" alt="">
+                <h4>小米10 Pro</h4>
+                <h5>骁龙865/50倍变焦</h5>
+                <div><span>4999元起</span><span></span> </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img data-lazy-src="detial-image/cellphone/Redmi k30 Pro.webp" alt="">
+                <h4>Renmi K30</h4>
+                <h5>120Hz流速屏，全速热爱</h5>
+                <div><span>1399元起</span><span>1699元</span> </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--电话的细节实现 -->
+
+    <div class="second-advertisement">
+      <img data-lazy-src="image/广告栏2.webp" alt="">
+    </div>
+
+    <div class="disprate-commponet disprate-commponet-second">
+      <div class="left-dis-title">家电</div>
+      <div class="right-dis-title"><span>热门</span>&nbsp&nbsp&nbsp&nbsp<span>电视影音</span></div>
+    </div>
+
+    <div class="family-electricity">
+      <div>
+        <ul>
+          <li class="special">
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/Redmi 电视 X65.webp" alt="">
+              <!-- <h4></h4>
+              <h5></h5>
+              <span></span><span></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/Redmi 红米电视 70英寸.webp" alt="">
+              <h4>Redmi 红米电视 70英寸</h4>
+              <h5>70英寸震撼巨屏,4k画质,细腻入真</h5>
+              <div><span>2729元</span><span>3799元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/小米全面屏电视E32C.webp" alt="">
+              <h4>小米全面屏电视E32C</h4>
+              <h5>全面屏设计,人工智能系统</h5>
+              <div><span>699元</span><span>899元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/小米全面屏电视E55A.webp" alt="">
+              <h4>小米全面屏电视E55A</h4>
+              <h5>全面屏设计,人工智能语音</h5>
+              <div><span>1599元</span><span>1999元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/米家空调.jpg" alt="">
+              <h4>米家空调</h4>
+              <h5>出众静音,快速制冷热</h5>
+              <div><span>1499元</span><span>1799元</span></div>
+            </a>
+          </li>
+          <li class="special">
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/小米电视4A 60英寸.webp" alt="">
+              <!--  <h4></h4>
+              <h5></h5>
+              <span></span><span></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/米家互联网洗烘一体机 Pro 10kg.webp" alt="">
+              <h4>米家互联网洗烘一体机 Pro 10kg</h4>
+              <h5>智能洗烘,省心省力</h5>
+              <div><span>2999元</span><span></span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/Redmi 全自动波轮洗衣机1A 8kg.webp" alt="">
+              <h4>Redmi 全自动波轮洗衣机1A 8kg</h4>
+              <h5>一键操作,父母都爱用</h5>
+              <div><span>799元</span><span>899元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/family-electricity/15.6” 四核i7 16G 独显 512G.webp" alt="">
+              <h4>15.6” 四核i7 16G 独显 512G</h4>
+              <h5>全面均衡的国民轻薄本</h5>
+              <div><span>4899元</span><span></span></div>
+            </a>
+          </li>
+          <li class="different">
+            <div id="last-one">
+              <a href="">
+                <img data-lazy-src="detial-image/family-electricity/Air 13.3‘’ 2019款.webp" alt="">
+                <h4>Air 13.3‘’ 2019款</h4>
+                <span>5499元起</span>
+              </a>
+            </div>
+            <div id="last-two">
+              <a href="">
+                <img data-lazy-src="detial-image/family-electricity/浏览更多.png" alt="">
+                <h4>浏览更多</h4>
+                <h5>热门</h5>
+                <span></span><span></span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="third-advertisement">
+      <img data-lazy-src="image/广告栏3.webp" alt="">
+    </div>
+
+    <div class="disprate-commponet disprate-commponet-second">
+      <div class="left-dis-title">家电</div>
+      <div class="right-dis-title"><span>热门</span>&nbsp&nbsp&nbsp<span>安防</span>&nbsp&nbsp&nbsp<span>出行</span></div>
+    </div>
+
+    <div class="family-electricity">
+      <div>
+        <ul>
+          <li class="special">
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/11.webp" alt="">
+              <!-- <h4></h4>
+                  <h5></h5>
+                  <span></span><span></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/12.webp" alt="">
+              <h4>Redmi 红米电视 70英寸</h4>
+              <h5>70英寸震撼巨屏,4k画质,细腻入真</h5>
+              <div><span>2729元</span><span>3799元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/13.webp" alt="">
+              <h4>小米全面屏电视E32C</h4>
+              <h5>全面屏设计,人工智能系统</h5>
+              <div><span>699元</span><span>899元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/14.webp" alt="">
+              <h4>小米全面屏电视E55A</h4>
+              <h5>全面屏设计,人工智能语音</h5>
+              <div><span>1599元</span><span>1999元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/15.webp" alt="">
+              <h4>米家空调</h4>
+              <h5>出众静音,快速制冷热</h5>
+              <div><span>1499元</span><span>1799元</span></div>
+            </a>
+          </li>
+          <li class="special">
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/21.webp" alt="">
+              <!--  <h4></h4>
+                  <h5></h5>
+                  <span></span><span></span> -->
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/22.webp" alt="">
+              <h4>米家互联网洗烘一体机 Pro 10kg</h4>
+              <h5>智能洗烘,省心省力</h5>
+              <div><span>2999元</span><span></span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/23.webp" alt="">
+              <h4>Redmi 全自动波轮洗衣机1A 8kg</h4>
+              <h5>一键操作,父母都爱用</h5>
+              <div><span>799元</span><span>899元</span></div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img data-lazy-src="detial-image/intellgent/24.webp" alt="">
+              <h4>15.6” 四核i7 16G 独显 512G</h4>
+              <h5>全面均衡的国民轻薄本</h5>
+              <div><span>4899元</span><span></span></div>
+            </a>
+          </li>
+          <li class="different">
+            <div id="last-one">
+              <a href="">
+                <img data-lazy-src="detial-image/intellgent/25.webp" alt="">
+                <h4>Air 13.3‘’ 2019款</h4>
+                <span>5499元起</span>
+              </a>
+            </div>
+            <div id="last-two">
+              <a href="">
+                <img data-lazy-src="detial-image/family-electricity/浏览更多.png" alt="">
+                <h4>浏览更多</h4>
+                <h5>热门</h5>
+                <span></span><span></span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fourth-advertisement">
+      <img data-lazy-src="image/广告栏4.webp" alt="">
+    </div>
+  </div>
+  <script src="js/EasyLazyload.min.js"></script>
+  <script>
+    lazyLoadInit({      
+      showTime: 50,
+      onLoadBackEnd: function (i, e) {
+        console.log("onLoadBackEnd:" + i);
+      }
+      , onLoadBackStart: function (i, e) {
+        console.log("onLoadBackStart:" + i);
+      }
+    });
+  </script>
+</body>
+
+</html>

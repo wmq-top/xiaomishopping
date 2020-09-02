@@ -1,0 +1,118 @@
+.family-electricity{
+    height: 613px;           
+  }
+
+  .family-electricity div ul{
+    display: flex;
+    flex-wrap: wrap;      
+  }
+  .family-electricity div ul li{
+    width: 242px;
+    height: 300px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .family-electricity div ul>:nth-child(5n){
+    margin-right: 0px;
+  }   
+  .family-electricity div img{
+    display: block;
+    width: 180px;
+    height: 180px;      
+    margin: 0px auto;
+  }
+  .family-electricity .special img{
+    width: 242px;
+    height: 300px;
+  }  
+  .family-electricity ul li h4{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(79, 79, 79);
+}
+.family-electricity ul li h5{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(190, 190, 190);
+  margin-top: 9px;
+}
+.family-electricity ul li div{   
+  height: 20px;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 103, 0);
+}
+.family-electricity ul li div>:last-child {
+  color: rgb(173, 173, 173);
+  text-decoration: line-through;
+}
+.family-electricity ul li:hover{
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  transform: translateY(-5px);
+  transition: all 0.4s ease 0s;
+}
+.family-electricity .different:hover{
+  box-shadow: none;
+  transform: translateY(0);
+  transition: all 0s ease 0s;
+}
+.family-electricity .different div:hover{
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  transform: translateY(-5px);
+  transition: all 0.4s ease 0s;
+}
+
+.family-electricity ul>:last-child{
+  background-color: rgb(245, 245, 245);
+}
+#last-one{
+  width: 100%;
+  height: 140px;    
+  margin-top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+#last-two{
+  width: 100%;
+  height: 150px; 
+  margin-top: 10px; 
+  background-color: rgb(255, 255, 255);
+}
+#last-one img{    
+  display: block;   
+  width: 80px;
+  height: 80px;
+  float: right;     
+  margin-top: 30px;  
+  margin-right: 10px;
+}
+
+#last-one h4{
+  padding-top: 50px;    
+  text-decoration-color: rgba(37, 22, 22, 0);
+ }
+#last-two img{
+  display: block;   
+  width: 90px;
+  height: 80px;
+  float: right;     
+  margin-top: 30px; 
+  margin-right: 5px;
+}
+
+#last-two h4{
+  padding-top: 50px;    
+  text-decoration-color: rgba(0,0,0,0);
+  font-size: 18px;
+ }
+
+ .nav-intellect{
+  height: 613px;
+  margin-top: 1px;      
+}
